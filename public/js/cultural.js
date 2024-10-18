@@ -4,7 +4,7 @@ function authStateListener() {
             let uid = user.uid;
         } else {
             signOut();
-            location.href = 'login.html';
+            location.href = 'index.html';
         }
     });
 }
